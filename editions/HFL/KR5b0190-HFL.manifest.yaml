@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0190/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5b0190/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金籙十迴度人午朝轉經儀
+  date: '2015-08-29 00:12:24.732828'
+  source:
+    repository: kanripo
+    path: KR5b0190
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0190_000-HFL.yaml, hash: 'sha256:217a44e3bf238752c9adcc35e47d90bf8cfa97dacc48ccecbc06a5884f84fe7b'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0190_000-HFL.markers.yaml, hash: 'sha256:5bb367b52f9dd380c538f79e3c5817bc7104b03d25356ad1d00fbabb0cad763d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0190_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1835
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:7703af0eb73fa97fdf58c83c22869316869d5efaf8d61c3fd7131efe07369c6e
